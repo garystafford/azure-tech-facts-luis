@@ -1,0 +1,15 @@
+{
+  "name": "azure-bot-demo",
+  "version": "1.0.0",
+  "description": "Azure Bot Demo",
+  "main": "cosmos-db-data.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gary A. Stafford",
+  "license": "MIT",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "mongodb": "^3.1.3"
+  }
+}

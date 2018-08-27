@@ -1,0 +1,99 @@
+[
+  {
+    "canonicalForm": "kubernetes",
+    "list": [
+      "aks",
+      "kubernetes service",
+      "docker",
+      "containers"
+    ]
+  },
+  {
+    "canonicalForm": "certifications",
+    "list": [
+      "certification",
+      "certification exam",
+      "certification exams"
+    ]
+  },
+  {
+    "canonicalForm": "cognitive",
+    "list": [
+      "cognitive services",
+      "cognitive service"
+    ]
+  },
+  {
+    "canonicalForm": "competition",
+    "list": [
+      "competitors",
+      "competitor"
+    ]
+  },
+  {
+    "canonicalForm": "cosmos",
+    "list": [
+      "cosmosdb",
+      "cosmos db",
+      "nosql",
+      "mongodb"
+    ]
+  },
+  {
+    "canonicalForm": "first",
+    "list": [
+      "first service",
+      "first services",
+      "first offering",
+      "first offerings",
+      "first product",
+      "first products",
+      "first feature",
+      "first features"
+    ]
+  },
+  {
+    "canonicalForm": "functions",
+    "list": [
+      "serverless functions",
+      "function as a service",
+      "functions as a service"
+    ]
+  },
+  {
+    "canonicalForm": "geographies",
+    "list": [
+      "geography"
+    ]
+  },
+  {
+    "canonicalForm": "global",
+    "list": [
+      "worldwide",
+      "global infrastructure"
+    ]
+  },
+  {
+    "canonicalForm": "products",
+    "list": [
+      "product",
+      "service",
+      "services",
+      "offering"
+    ]
+  },
+  {
+    "canonicalForm": "regions",
+    "list": [
+      "regional",
+      "regional infrastructure"
+    ]
+  },
+  {
+    "canonicalForm": "released",
+    "list": [
+      "release",
+      "release date"
+    ]
+  }
+]
