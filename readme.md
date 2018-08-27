@@ -1,29 +1,13 @@
-## Use Azure app service editor
+# LUIS-enabled Chatbot
 
-1. make code change in the online editor
+Project for the accompanying post, [Building and Integrating LUIS-enabled Chatbots with Slack, using Azure Bot Service, BotBuilder SDK, and Cosmos DB](https://programmaticponderings.com/).
 
-Your code changes go live as the code changes are saved.
+The post, publised 8/27/2018, explores the development of a machine learning-based LUIS-enabled chatbot using the Azure Bot Service and the BotBuilder SDK. The chatbot’s functionality is enhanced with Azure’s Cloud services, including Cosmos DB and Blob Storage. Once built the chatbot is integrated across multiple channels, including Web Chat and Slack.
 
-## Use Visual Studio Code
+## Architecture
 
-### Build and debug
-1. download source code zip and extract source in local folder
-2. open the source folder in  Visual Studio Code
-3. make code changes
-4. download and run [botframework-emulator](https://emulator.botframework.com/)
-5. connect the emulator to http://localhost:3987
+A chatbot user interacts with the chatbot through a number of available channels, such as the Web, Slack, and Skype. The channels communicate with the Web App Bot, part of Azure Bot Service, and running on Azure’s App Service, the fully-managed platform for cloud apps. LUIS integration allows the chatbot to learn and understand the user’s intent based on the bot’s own domain-specific natural language model.
 
-### Publish back
+Through Azure’s App Service platform, our chatbot is able to retrieve data from Cosmos DB and images from Blob Storage. The chatbot’s telemetry is available through Azure’s Application Insights.
 
-```
-npm run azure-publish
-```
-
-## Use continuous integration
-
-If you have setup continuous integration, then your bot will automatically deployed when new changes are pushed to the source repository.
-
-
-https://github.com/Microsoft/BotBuilder-Samples/tree/master/Node/cards-RichCards
-
-
+![Chatbot Architecture](./pics/azure-chatbot-diagram.png)
