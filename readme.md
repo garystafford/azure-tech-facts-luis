@@ -1,6 +1,6 @@
 # LUIS-enabled Chatbot
 
-Project for the accompanying post, [Building and Integrating LUIS-enabled Chatbots with Slack, using Azure Bot Service, BotBuilder SDK, and Cosmos DB](https://programmaticponderings.com/).
+Project for the accompanying post, [Building and Integrating LUIS-enabled Chatbots with Slack, using Azure Bot Service, Bot Builder SDK, and Cosmos DB](https://programmaticponderings.com/).
 
 The post, publised 8/27/2018, explores the development of a machine learning-based LUIS-enabled chatbot using the Azure Bot Service and the BotBuilder SDK. The chatbot’s functionality is enhanced with Azure’s Cloud services, including Cosmos DB and Blob Storage. Once built the chatbot is integrated across multiple channels, including Web Chat and Slack.
 
